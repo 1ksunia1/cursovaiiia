@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .hero-image {
+            background-image: url('https://cs11.pikabu.ru/post_img/big/2020/06/06/4/1591418255141081465.png');
+            height: 400px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+        }
+
+        .features-list {
+            background-color: #ffffff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+        .mt-4{
+            position: absolute;
+            top: -20px;
+            right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Система управления задачами</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">О системе</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-image d-flex justify-content-center align-items-center text-white">
+        <h1 class="text-center">Добро пожаловать в Систему управления задачами</h1>
+    </div>
+
+    <div class="container mt-5">
+        <div class="text-center">
+            <h2>Организуйте свои задачи и повышайте свою продуктивность!</h2>
+
+        </div>
+
+        <h2 class="mt-5">Основные функции:</h2>
+        <div class="row mt-3">
+            <div class="col-md-6 features-list">
+                <h4>Создание и планирование задач</h4>
+                <p>Легкое создание задач с установкой сроков и приоритетов.</p>
+            </div>
+            <div class="col-md-6 features-list">
+                <h4>Отслеживание прогресса</h4>
+                <p>Смотрите статус выполнения ваших задач в реальном времени.</p>
+            </div>
+            <div class="col-md-6 features-list mt-3">
+                <h4>Совместная работа</h4>
+                <p>Делитесь задачами с командой и координируйте свои действия.</p>
+            </div>
+            <div class="col-md-6 features-list mt-3">
+                <h4>Интеграция с другими приложениями</h4>
+                <p>Единая точка доступа к вашим инструментам для повышения эффективности.</p>
+            </div>
+            <div class="col-md-6 features-list mt-3">
+                <h4>Анализ и отчетность</h4>
+                <p>Создавайте отчеты о выполненных задачах и метриках производительности.</p>
+            </div>
+            <div class="col-md-6 features-list mt-3">
+                <h4>Удобный интерфейс</h4>
+                <p>Простой и интуитивно понятный интерфейс для пользователей любого уровня.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer mt-5">
+        <p>&copy; 2024 Система управления задачами. Все права защищены.</p>
+    </div>
+
+    
+        <div class="mt-4">
+            <a href="/registration" class="btn btn-primary btn-lg">Регистрация</a>
+            <a href="/authorization" class="btn btn-secondary btn-lg">Авторизация</a>
+        </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

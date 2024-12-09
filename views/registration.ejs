@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>1221</title>
+  <style>
+   .registration-container {
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-top: 10%;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="container col-md-4 registration-container">
+    <h1 class="mb-4 text-center">Регистрация</h1>
+    <form id="registrationForm" action="/register" method="POST">
+      <div class="mb-3">
+        <label for="regEmail" class="form-label" style="font-weight: bold">Электронная почта</label>
+        <input type="email" class="form-control" id="regEmail" name="email" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="regPassword" class="form-label" style="font-weight: bold">Пароль</label>
+        <input type="password" class="form-control" id="regPassword" name="password" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">Зарегистрироваться</button>
+    </form>
+  </div>
+
+      
